@@ -1,4 +1,4 @@
- .header {
+.header {
     position: fixed;
     top: 0;
     left: 0;
@@ -76,6 +76,24 @@
     flex-direction: column;
     padding: 16px;
     animation: slideIn 0.3s ease forwards;
+}
+
+ 
+.menuLogo {
+    text-align: start;
+    margin-bottom: 20px;
+}
+
+.menuLogo h2 {
+    font-family: serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: black;
+    margin: 0;
+}
+
+.menuLogo .highlight {
+    color: #f87171;
 }
 
 .menuContent ul {

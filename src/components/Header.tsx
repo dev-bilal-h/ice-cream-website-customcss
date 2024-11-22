@@ -35,6 +35,12 @@ export default function Header() {
                 </button>
                 {isMenuOpen && (
                     <div className="menuContent">
+                        {/* Add the logo inside the menu */}
+                        <div className="menuLogo">
+                            <h2>
+                                Cloudy <span className="highlight">Cones</span>
+                            </h2>
+                        </div>
                         <button className="closeButton" onClick={toggleMenu}>
                             ✖
                         </button>
