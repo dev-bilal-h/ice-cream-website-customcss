@@ -1,0 +1,125 @@
+ .product-card-container {
+    padding: 40px 16px;
+    text-align: center;
+    background-color: #f9fafb;
+  }
+  
+  .section-title {
+    font-size: 1.875rem;
+    font-weight: bold;
+    margin-top: 32px;
+  }
+  
+  .section-title .highlight {
+    color: #ec4899;
+  }
+  
+  .section-subtitle {
+    color: #6b7280;
+    margin-top: 8px;
+  }
+  
+  /* Grid Styling */
+  .product-grid {
+    margin-top: 32px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 24px;
+  }
+  
+  @media (min-width: 640px) {
+    .product-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .product-grid {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+  
+  /* Product Card Styling */
+  .product-card {
+    background-color: #ffffff;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    transition: box-shadow 0.2s;
+  }
+  
+  .product-card:hover {
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Product Image Styling */
+  .product-image {
+    position: relative;
+    width: 100%;
+    height: 256px;
+    border-radius: 8px 8px 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 16px;
+  }
+  
+  .classic-bg {
+    background-color: #fce7f3;  
+  }
+  
+  .best-seller-bg {
+    background-color: #e7acc8; 
+  }
+  
+  .image-content {
+    object-fit: contain;
+    padding: 16px;
+  }
+  
+  /* Product Info Styling */
+  .product-info {
+    padding: 16px;
+  }
+  
+  .product-name {
+    font-size: 1.125rem;
+    font-weight: 600;
+  }
+  
+  .product-description {
+    color: #6b7280;
+    font-size: 0.875rem;
+    margin-top: 4px;
+  }
+  
+  .product-price {
+    color: #ec4899;
+    font-weight: bold;
+    font-size: 1.25rem;
+    margin-top: 12px;
+  }
+  
+  /* Button Styling */
+  .add-to-cart-btn {
+    width: 100%;
+    margin-top: 16px;
+    background-color: #ec4899;
+    color: #ffffff;
+    padding: 8px 0;
+    border-radius: 8px;
+    transition: background-color 0.2s;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .add-to-cart-btn:hover {
+    background-color: #db2777;
+  }
+  
+  /* Divider */
+  .divider {
+    border-top: 1px solid #d1d5db;
+    margin: 40px 0;
+  }
+  

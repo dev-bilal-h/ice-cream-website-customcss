@@ -1,0 +1,150 @@
+ #contact {
+    background-color: #ffedf4; 
+    padding-top: 4rem;  
+    padding-bottom: 4rem;  
+}
+
+/* Inner wrapper */
+.contact-wrapper {
+    max-width: 90rem;  
+    margin: 0 auto;  
+    padding: 1.5rem;  
+}
+
+/* Section title */
+.contact-title {
+    font-size: 2.25rem;  
+    font-weight: bold;
+    color: #EC407A;  
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+/* Grid layout */
+.contact-grid {
+    display: grid;
+    grid-template-columns: 1fr;  
+    gap: 2rem;  
+}
+
+@media (min-width: 768px) {
+    .contact-grid {
+        grid-template-columns: 1fr 1fr;  
+    }
+}
+
+/* Card Styling (Both Form & Info) */
+.card {
+    background-color: #FFFFFF;  
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+    border-radius: 0.5rem;  
+    padding: 2rem;  
+}
+
+/* Form Card Specific */
+.contact-form h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #F48FB1;  
+    margin-bottom: 1.5rem;
+}
+
+.contact-form label {
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #4A5568;  
+    margin-bottom: 0.5rem;
+    display: block;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;  
+    background-color: #FCE4EC;  
+    border: 1px solid #F48FB1; 
+    padding: 0.75rem;  
+    font-size: 1rem;
+    margin-bottom: 1rem;  
+    outline: none;  
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border-color: #EC407A;  
+    box-shadow: 0 0 0 3px rgba(236, 64, 122, 0.2); 
+}
+
+.contact-form button {
+    display: block;  
+    width: 100%;
+    background-color: #EC407A;  
+    color: #FFFFFF;  
+    font-weight: 600;
+    padding: 0.75rem 0;  
+    border: 1px solid #EC407A;  
+    border-radius: 0.375rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact-form button:hover {
+    background-color: #E91E63; 
+}
+
+/* Info Card Specific */
+.contact-info {
+    background-color: #FCE4EC;  
+}
+
+.contact-info h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #EC407A;
+    margin-bottom: 1.5rem;
+}
+
+.contact-info p {
+    font-size: 1rem;
+    color: #4A5568;
+    margin-bottom: 1.5rem;
+}
+
+.contact-info ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.contact-info li {
+    margin-bottom: 1rem;  
+}
+
+.contact-info li span {
+    font-weight: bold;
+    color: #F48FB1;  
+}
+
+.contact-info li p {
+    color: #4A5568;  
+    margin: 0;
+}
+
+/* Social Media */
+.social-links {
+    margin-top: 1.5rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.social-links a {
+    color: #F48FB1;  
+    transition: color 0.3s;
+}
+
+.social-links a:hover {
+    color: #E91E63;  
+}
+
+.social-links svg {
+    font-size: 1.5rem;  
+}
